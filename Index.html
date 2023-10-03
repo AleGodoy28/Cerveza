@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cervezas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                
+                <a href="#principal">Principal</a>
+                <a href="#productos">Productos</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#contactenos">Contáctenos</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="principal">
+        <div class="galeria">
+            <img src="./Imagenes/Apa.jpg" alt="">
+            <img src="./Imagenes/Ipa.jpg" alt="">
+            <img src="./Imagenes/Pilsen.jpg" alt="">
+            <img src="./Imagenes/Stout.jpg" alt="">
+            <img src="./Imagenes/Red_Lager.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="productos">
+        <div class="container">
+            <h2>Productos</h2>
+            <div class="product-cards">
+                <div class="product-card">
+                    <img src="./Imagenes/Ipa.jpg" alt="IPA">
+                    <h3>IPA</h3>
+                    <p>La IPA es un estilo de cerveza artesanal audaz y lupulado. De color ámbar, con aroma intenso a lúpulo y sabor equilibrado entre amargor y dulzor.</p>
+                </div>
+                <div class="product-card">
+                    <img src="./Imagenes/Pilsen.jpg" alt="Pilsen">
+                    <h3>PILSEN</h3>
+                    <p>La Pilsen se distingue por su sabor refrescante y equilibrado, con un notable enfoque en el lúpulo.</p>
+                </div>
+                <div class="product-card">
+                    <img src="./Imagenes/Red_Lager.jpg" alt="Red_Lager">
+                    <h3>RED LAGER</h3>
+                    <p>La cerveza Red Lager es un estilo de cerveza de color rojizo y cuerpo medio.</p>
+                </div>
+                <div class="product-card">
+                    <img src="./Imagenes/Stout.jpg" alt="Stout">
+                    <h3>STOUT</h3>
+                    <p>La cerveza Stout es un estilo oscuro y robusto, conocido por su cuerpo completo y sabores intensos.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros">
+        <div class="container">
+            <div class="nosotros-content">
+                <div class="nosotros-image">
+                  <img src="/Imagenes/Equipo de cerveza.jpg" alt="Imagen de Nosotros">
+                </div>
+                <div class="nosotros-text">
+                    <h2>Nuestra Historia</h2>
+                    <p>En una ciudad ubicada a orillas del hermoso río Parana, tres amigos amantes de la cerveza artesanal llamados Federico, Brian y Alejandro. Juntos, compartían una pasión por la cerveza y soñaban con 
+                        crear su propia marca de cerveza artesanal que capturara la esencia del lugar donde habían crecido, el encanto del río y la rica tradición cervecera de la región. Armados con determinación y entusiasmo, Federico, Brian y Alejandro
+                        comenzaron a experimentar en un Quincho, creando recetas únicas y sabores innovadores. Utilizando ingredientes frescos y de alta calidad, perfeccionaron sus técnicas de elaboración y pronto se encontraron con cervezas artesanales 
+                        excepcionales que deleitaban a sus amigos y familiares. Movidos por el éxito y el deseo de compartir su pasión con el mundo, decidieron dar el siguiente paso y fundaron su propia
+                        empresa de cerveza artesanal, a la que llamaron "Río Mío". Su objetivo era crear una marca que no solo ofreciera cervezas artesanales de alta calidad, sino que también honrara la belleza natural 
+                         del río y transmitiera la calidez y la camaradería que se experimenta al disfrutar de una buena cerveza con amigos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contactenos">
+        <div class="container">
+            <h2>Contacta con Nosotros</h2>
+            <form id="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Número de Teléfono:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>    
+    </section>
+
+    <footer>
+        
+    </footer>
+</body>
+</html>
